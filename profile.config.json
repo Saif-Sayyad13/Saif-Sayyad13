@@ -1,22 +1,21 @@
 {
-  "$schema": "./profile.schema.json",
   "profile": {
-    "name": "Your Name",
-    "username": "yourusername",
-    "headline": "AI Engineer & Product Builder",
-    "affiliation": "Your University or Company",
-    "location": "City, Country",
-    "status": "Learning / Building / Shipping",
+    "name": "Saif Sayyad",
+    "username": "Saif-Sayyad13",
+    "headline": "AI Engineer | Python Developer",
+    "affiliation": "SPPU, Pune",
+    "location": "Pune, Maharashtra",
+    "status": "Building & Shipping",
     "about": [
-      "I build practical systems at the intersection of artificial intelligence, software engineering, and products people can trust.",
-      "My work combines technical exploration with a builder mindset: understand the problem, test the system, and share what actually works."
+      "AI Engineer and IEEE-published researcher building and deploying end-to-end AI applications, including a live multi-tenant RAG knowledge assistant and an LLM-powered healthcare platform.",
+      "B.Tech CSE-AI, Class of 2026. Seeking entry-level AI/ML, Python backend, or Software Engineering roles."
     ]
   },
   "research": {
     "primary": "AI Agents",
     "direction": "Reliable autonomous systems",
     "themes": "Tool use / evaluation / human control",
-    "narrative": "I am interested in systems that can observe state, use tools, evaluate outcomes, and take bounded actions with clear evidence and human oversight."
+    "narrative": "I build systems that observe state, use tools, evaluate outcomes, and take bounded actions with clear evidence and human oversight."
   },
   "focus": [
     {
@@ -30,48 +29,66 @@
     {
       "name": "Developer Tools",
       "description": "Better workflows for building, testing, and operating modern software."
+    },
+    {
+      "name": "RAG Systems",
+      "description": "Retrieval-augmented generation pipelines, vector search, and cited answers."
     }
   ],
   "projects": [
     {
-      "name": "Project One",
-      "url": "https://github.com/yourusername/project-one",
-      "homepage": "",
-      "focus": "Primary project focus",
-      "summary": "A concise explanation of what the project does and why it matters.",
-      "heroLabel": "Primary build"
+      "name": "Despion AI",
+      "url": "https://github.com/Saif-Sayyad13/DespionAI",
+      "homepage": "https://vercel.com/saif-sayyads-projects/despion-ai",
+      "focus": "Enterprise RAG Assistant",
+      "summary": "Live multi-tenant RAG knowledge assistant with pgvector retrieval, Google Gemini, and role-based admin dashboard.",
+      "heroLabel": "Live System"
     },
     {
-      "name": "Project Two",
-      "url": "https://github.com/yourusername/project-two",
-      "homepage": "",
-      "focus": "Secondary project focus",
-      "summary": "A second project that supports the professional direction of this profile.",
-      "heroLabel": "Active system"
+      "name": "HealthBridge AI",
+      "url": "https://github.com/Saif-Sayyad13/Health-Bridge-AI",
+      "homepage": "https://healthbridgeaiai.streamlit.app",
+      "focus": "AI Healthcare Platform",
+      "summary": "Production-ready AI healthcare platform using Groq Llama 3.3 70B for automated symptom analysis, deployed on Render and Streamlit.",
+      "heroLabel": "Live Deployment"
+    },
+    {
+      "name": "Skin Tone CNN",
+      "url": "https://github.com/Saif-Sayyad13/Skin-Tone-Detection",
+      "homepage": "https://fbf41af07ae7afa34d.gradio.live",
+      "focus": "Computer Vision Research",
+      "summary": "CNN trained on 23,000+ UTKFace images for 5-class skin tone classification at 81.12% accuracy. Published as a peer-reviewed IEEE paper.",
+      "heroLabel": "IEEE Published"
     }
   ],
   "techStack": [
-    "TypeScript",
-    "Next.js",
     "Python",
+    "FastAPI",
+    "TensorFlow",
+    "PyTorch",
     "PostgreSQL",
-    "Playwright"
+    "Docker",
+    "Streamlit",
+    "Google Gemini",
+    "Groq Llama",
+    "pgvector",
+    "LangChain"
   ],
   "links": [
     {
-      "label": "GitHub",
-      "value": "yourusername",
-      "url": "https://github.com/yourusername",
-      "logo": "github",
-      "color": "0B1220"
+      "label": "LinkedIn",
+      "value": "saifsayyad13",
+      "url": "https://linkedin.com/in/saifsayyad13",
+      "logo": "linkedin",
+      "color": "0A66C2"
     }
   ],
   "activity": {
     "enabled": true,
-    "limit": 6
+    "limit": 5
   },
   "appearance": {
     "palette": "signal"
   },
-  "footer": "Building thoughtful systems and sharing what works."
+  "footer": "Building thoughtful AI systems and sharing what works."
 }
